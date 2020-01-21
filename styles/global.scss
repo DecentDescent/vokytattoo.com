@@ -1,0 +1,18 @@
+@import "reset";
+
+body {
+  margin: 0;
+}
+
+section.section {
+  min-height: 100vh;
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+$color-gold: #f3c883;

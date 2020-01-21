@@ -1,0 +1,68 @@
+@import "../../styles/global.scss";
+
+.section--hero {
+  background-color: black;
+
+  svg {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .square {
+    display: block;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+
+    &:before,
+    &:after {
+      content: "";
+      width: 0%;
+      height: 0%;
+      position: absolute;
+      border: 1px dashed $color-gold;
+      animation-fill-mode: forwards;
+    }
+
+    &:before {
+      left: 0;
+      top: 0;
+      border-bottom: 0;
+      border-left: 0;
+      animation: btm 0.7s ease-in forwards;
+    }
+
+    &:after {
+      visibility: hidden;
+      right: 0;
+      bottom: 0;
+      border-top: 0;
+      border-right: 0;
+      animation: btm 0.7s 0.7s ease-out forwards;
+    }
+  }
+
+  @keyframes btm {
+    0% {
+      visibility: visible;
+      width: 0;
+      height: 0;
+      opacity: 0.1;
+    }
+    50% {
+      width: 100%;
+      height: 0;
+      opacity: 0.5;
+    }
+    100% {
+      width: 100%;
+      height: calc(100% - 1px);
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}

@@ -4,11 +4,11 @@ import About from "../components/About";
 
 function IndexPage() {
   return (
-    <div>
+    <>
       <Head />
       <Hero />
       <About />
-    </div>
+    </>
   );
 }
 export default IndexPage;
