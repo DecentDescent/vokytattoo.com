@@ -1,13 +1,9 @@
-import Head from "../components/Head";
-import Hero from "../components/Hero";
-import About from "../components/About";
+import Container from "../components/Container";
 
 function IndexPage() {
   return (
     <>
-      <Head />
-      <Hero />
-      <About />
+      <Container />
     </>
   );
 }

@@ -1,5 +1,10 @@
 @import "reset";
 
+$color-gold: #f3c883;
+$color-white: #fff;
+$color-navy: #1f303d;
+$color-black: #171e24;
+
 body {
   margin: 0;
 }
@@ -13,7 +18,12 @@ section.section {
   justify-content: center;
   box-sizing: border-box;
   z-index: 1;
-}
 
-$color-gold: #f3c883;
-$color-white: #fff;
+  &.section--navy {
+    background: $color-navy;
+  }
+
+  &.section--black {
+    background: $color-black;
+  }
+}
