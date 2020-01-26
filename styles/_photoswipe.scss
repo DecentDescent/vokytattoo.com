@@ -144,10 +144,10 @@
     font-size: 14px;
     line-height: 16px;
     margin-top: -8px;
-    color: #ccc;
+    color: #f3c883;
   }
   .pswp__error-msg a {
-    color: #ccc;
+    color: #f3c883;
     text-decoration: underline;
   }
   .pswp__button {
@@ -296,7 +296,7 @@
   .pswp__share-tooltip {
     z-index: 1620;
     position: absolute;
-    background: #fff;
+    background: #f3c883;
     top: 56px;
     border-radius: 2px;
     display: block;
@@ -349,24 +349,24 @@
     top: -12px;
     right: 15px;
     border: 6px solid transparent;
-    border-bottom-color: #fff;
+    border-bottom-color: #f3c883;
     -webkit-pointer-events: none;
     -moz-pointer-events: none;
     pointer-events: none;
   }
   a.pswp__share--facebook:hover {
     background: #3e5c9a;
-    color: #fff;
+    color: #f3c883;
   }
   a.pswp__share--facebook:hover:before {
     border-bottom-color: #3e5c9a;
   }
   a.pswp__share--twitter:hover {
     background: #55acee;
-    color: #fff;
+    color: #f3c883;
   }
   a.pswp__share--pinterest:hover {
-    background: #ccc;
+    background: #f3c883;
     color: #ce272d;
   }
   a.pswp__share--download:hover {
@@ -379,7 +379,7 @@
     height: 44px;
     font-size: 13px;
     line-height: 44px;
-    color: #fff;
+    color: #f3c883;
     opacity: 0.75;
     padding: 0 10px;
   }
@@ -392,7 +392,7 @@
   }
   .pswp__caption small {
     font-size: 11px;
-    color: #bbb;
+    color: #f3c883;
   }
   .pswp__caption__center {
     text-align: center;
@@ -401,7 +401,7 @@
     font-size: 13px;
     padding: 10px;
     line-height: 20px;
-    color: #ccc;
+    color: #f3c883;
   }
   .pswp__caption--empty {
     display: none;
@@ -465,7 +465,7 @@
     box-sizing: border-box;
     width: 14px;
     height: 14px;
-    border: 2px solid #fff;
+    border: 2px solid #f3c883;
     border-radius: 50%;
     border-left-color: transparent;
     border-bottom-color: transparent;

@@ -23,6 +23,10 @@ function Container() {
     console.log(galleryID, galleryState);
   };
 
+  let options = {
+    shareEl: false
+  };
+
   return (
     <>
       <Head />
@@ -37,6 +41,7 @@ function Container() {
           isOpen={galleryState}
           items={galleries[galleryID].items}
           onClose={galleryClose}
+          options={options}
         />
       ) : null}
     </>

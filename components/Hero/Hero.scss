@@ -44,8 +44,18 @@
     width: 90%;
     max-width: 600px;
     animation: fadeIn 3s forwards;
+    z-index: 2;
   }
 
+  .hero__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba($color-black, 0.7);
+    z-index: 2;
+  }
   .square {
     display: block;
     width: calc(100% - 40px);
@@ -57,6 +67,7 @@
     bottom: 20px;
     opacity: 0.5;
     animation: pulse 4s 1.4s ease-in-out forwards infinite;
+    z-index: 2;
 
     &:before,
     &:after {
@@ -94,6 +105,7 @@
   opacity: 0.5;
   cursor: pointer;
   animation: pulse 10s 2s ease-in forwards infinite;
+  z-index: 2;
 
   svg {
     fill: $color-gold;
