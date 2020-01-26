@@ -2,8 +2,23 @@
 
 .lang-switch {
   position: fixed;
-  top: 24px;
-  right: 24px;
-  color: white;
+  top: 38px;
+  right: 32px;
+  color: $color-gold;
+  font-family: "Sansita", sans-serif;
+  text-transform: uppercase;
+  border: 2px dashed transparent;
+  letter-spacing: 1px;
+  font-size: 21px;
+  padding: 16px;
+  cursor: pointer;
+  transition: all 0.24s;
   z-index: 999;
+  text-decoration: none;
+  @media (max-width: 1000px) {
+    position: absolute;
+  }
+  &:hover {
+    border: 2px dashed rgba($color-gold, 0.4);
+  }
 }

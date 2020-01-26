@@ -1,9 +1,11 @@
+@import "photoswipe";
 @import "reset";
-
+@import url("https://fonts.googleapis.com/css?family=Bangers&display=swap&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Sansita&display=swap&subset=latin-ext");
 $color-gold: #f3c883;
 $color-white: #fff;
 $color-navy: #1f303d;
-$color-black: #171e24;
+$color-black: #14171a;
 
 body {
   margin: 0;
@@ -11,19 +13,59 @@ body {
 
 section.section {
   min-height: 100vh;
-  padding: 32px;
+  padding: 92px 32px;
   display: flex;
   align-items: center;
   position: relative;
   justify-content: center;
   box-sizing: border-box;
   z-index: 1;
+}
 
-  &.section--navy {
-    background: $color-navy;
-  }
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  font-family: "Bangers", cursive;
+  color: $color-gold;
+  letter-spacing: 1px;
+}
 
-  &.section--black {
-    background: $color-black;
+h2 {
+  font-size: 22px;
+  padding: 32px 8px;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-family: "Sansita", sans-serif;
+  color: $color-gold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Sansita", sans-serif;
+  color: $color-gold;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 22px;
+  color: $color-gold;
+  letter-spacing: 1px;
+  font-family: "Sansita", sans-serif;
+  margin: 32px 0;
+  line-height: 1.3;
+}
+
+.container {
+  max-width: 750px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 32px;
+  box-sizing: border-box;
+
+  &.container--center {
+    text-align: center;
   }
 }

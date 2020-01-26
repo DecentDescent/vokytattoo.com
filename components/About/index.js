@@ -5,14 +5,26 @@ import classnames from "classnames";
 const About = () => {
   return (
     <section
-      className={classnames(styles["section"], styles["section--navy"])}
+      className={classnames(styles["section"], styles["section--about"])}
       id="about"
     >
-      <TranslateContext.Consumer>
-        {s => {
-          return <>{s["ahoj"]}</>;
-        }}
-      </TranslateContext.Consumer>
+      <div
+        className={classnames(styles["container"], styles["container--center"])}
+      >
+        <TranslateContext.Consumer>
+          {s => {
+            return (
+              <>
+                <h1>{s["aboutTitle"]}</h1>
+                <p>{s["aboutLine1"]}</p>
+                <p>{s["aboutLine2"]}</p>
+                <p>{s["aboutLine3"]}</p>
+                <p>{s["aboutLine4"]}</p>
+              </>
+            );
+          }}
+        </TranslateContext.Consumer>
+      </div>
     </section>
   );
 };
