@@ -40,9 +40,12 @@
 .section--hero {
   background-color: black;
 
-  svg {
-    width: 90%;
-    max-width: 600px;
+  svg.logo {
+    max-width: 90%;
+    max-height: 60vh;
+    min-width: 400px;
+    height: auto;
+    width: 100%;
     animation: fadeIn 3s forwards;
     z-index: 2;
   }
@@ -109,5 +112,7 @@
 
   svg {
     fill: $color-gold;
+
+    bottom: 48px;
   }
 }
