@@ -28,7 +28,13 @@ export const languages = {
       </>
     ),
 
-    contactTitle: "Contact"
+    contactTitle: "Contact",
+    contactLine1: "Address",
+    contactLine2: "Bieblova 5, Praha - Smíchov",
+    contactLine3: "500m from Metro B line station Anděl",
+    contactLine4: "Opening hours",
+    contactLine5: "Mon - Thu: 10 AM - 7 PM",
+    contactLine6: "Make a reservation before visiting us!"
   },
   cs: {
     langID: "cs",
@@ -56,7 +62,13 @@ export const languages = {
         .
       </>
     ),
-    contactTitle: "Kontakt"
+    contactTitle: "Kontakt",
+    contactLine1: "Adresa studia",
+    contactLine2: "Bieblova 5, Praha - Smíchov",
+    contactLine3: "500 m od stanice Anděl (B)",
+    contactLine4: "Provozní doba",
+    contactLine5: "Pondělí - Čtvrtek: 10:00 - 19:00",
+    contactLine6: "Před návštěvou je nutná rezervace!"
   }
 };
 

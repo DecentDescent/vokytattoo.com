@@ -11,3 +11,60 @@
   background-position: center top;
   box-shadow: inset 0 0 20px 0 $color-black;
 }
+
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  @media (max-width: 639px) {
+    grid-template-columns: 1fr;
+  }
+
+  svg {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    fill: $color-white;
+    margin-right: 12px;
+    opacity: 0.5;
+    @media (max-width: 639px) {
+      display: none;
+    }
+  }
+  p {
+    color: $color-white;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 16px 0 0 0;
+
+    span {
+      opacity: 0.2;
+      margin: 0 8px;
+    }
+  }
+
+  a {
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  .contact__box {
+    text-align: left;
+    padding: 16px 0;
+    @media (max-width: 639px) {
+      text-align: center;
+    }
+  }
+
+  .contact__map {
+    align-self: center;
+
+    img {
+      width: 100%;
+      border-radius: 4px;
+      margin-top: 24px;
+      margin-bottom: 32px;
+    }
+  }
+}
