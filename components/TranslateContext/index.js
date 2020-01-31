@@ -14,7 +14,20 @@ export const languages = {
       "Be aware: The opening hours of the shop are subject to change. If you plan on visiting us, please contact us first via email or phone.",
     language: "Česky",
     teamTitle: "Our Work",
-    teamLine1: "You can check our latest work on Facebook or Instagram.",
+    teamLine1: (
+      <>
+        You can check our latest work on{" "}
+        <a href="https://www.facebook.com/vokytattoo/" target="_blank">
+          Facebook
+        </a>{" "}
+        or{" "}
+        <a href="https://www.instagram.com/voky_tattoo/" target="_blank">
+          Instagram
+        </a>
+        .
+      </>
+    ),
+
     contactTitle: "Contact"
   },
   cs: {
@@ -30,7 +43,19 @@ export const languages = {
       "Upozornění: Otevírací doba je pouze orientační, pokud se k nám chystáte, ozvěte se prosím předem prostřednictvím emailu nebo telefonu.",
     language: "English",
     teamTitle: "Naše práce",
-    teamLine1: "Naše nejnovější práce můžete vidět na Facebooku a Instagramu.",
+    teamLine1: (
+      <>
+        Naše nejnovější práce můžete najít na{" "}
+        <a href="https://www.facebook.com/vokytattoo/" target="_blank">
+          Facebooku
+        </a>{" "}
+        nebo{" "}
+        <a href="https://www.instagram.com/voky_tattoo/" target="_blank">
+          Instagramu
+        </a>
+        .
+      </>
+    ),
     contactTitle: "Kontakt"
   }
 };

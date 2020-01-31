@@ -107,8 +107,16 @@
   bottom: 48px;
   opacity: 0.5;
   cursor: pointer;
+  background: none;
+  border: none;
+  transition: all 0.4s;
   animation: pulse 10s 2s ease-in forwards infinite;
   z-index: 2;
+
+  &:hover {
+    background: none;
+    transform: scale(1.2);
+  }
 
   svg {
     fill: $color-gold;

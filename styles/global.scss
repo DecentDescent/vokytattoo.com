@@ -58,6 +58,19 @@ p {
   line-height: 1.3;
 }
 
+a {
+  color: $color-gold;
+  transition: all 0.24s;
+  text-decoration: none;
+  border-top: 2px solid rgba($color-gold, 0.2);
+  border-bottom: 2px solid rgba($color-gold, 0.2);
+  padding: 2px 5px 5px 5px;
+  &:hover {
+    color: $color-white;
+    background: rgba($color-gold, 0.2);
+  }
+}
+
 .container {
   max-width: 750px;
   width: 100%;
