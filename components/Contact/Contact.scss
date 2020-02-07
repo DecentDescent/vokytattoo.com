@@ -66,5 +66,14 @@
       margin-top: 24px;
       margin-bottom: 32px;
     }
+
+    a {
+      border: none;
+      background: none;
+      &:hover {
+        background: none;
+        transform: scale(1.1);
+      }
+    }
   }
 }

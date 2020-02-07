@@ -17,10 +17,23 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 48px;
 
-  .teammate:nth-child(2) {
-    padding-top: 48px;
+  .teammate:nth-child(1) {
+    .teammate__avatar {
+      background-image: url("/static/photos/voky.jpg");
+    }
   }
 
+  .teammate:nth-child(2) {
+    padding-top: 48px;
+    .teammate__avatar {
+      background-image: url("/static/photos/vojta.jpg");
+    }
+  }
+  .teammate:nth-child(3) {
+    .teammate__avatar {
+      background-image: url("/static/photos/le3rok.jpg");
+    }
+  }
   .teammate:hover {
     .teammate__avatar {
       box-shadow: 0 0 0 8px rgba($color-black, 1),
@@ -48,6 +61,8 @@
     transition: all 0.24s;
     margin: 0 auto;
     cursor: pointer;
+    background-size: cover;
+    background-position: center;
 
     @media (min-width: 640px) and (max-width: 1000px) {
       width: 148px;
