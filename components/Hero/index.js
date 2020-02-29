@@ -2,10 +2,7 @@ import styles from "./Hero.scss";
 import BackgroundSlideshow from "react-background-slideshow";
 import classnames from "classnames";
 
-const images = [
-  "https://images.unsplash.com/photo-1565058379802-bbe93b2f703a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
-  "https://images.unsplash.com/photo-1479767574301-a01c78234a0c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
-];
+const images = ["/static/photos/hero1.jpeg", "/static/photos/hero2.jpeg"];
 
 const Hero = () => {
   return (
