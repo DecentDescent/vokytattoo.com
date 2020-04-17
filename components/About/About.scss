@@ -11,3 +11,21 @@
   background-position: center top;
   box-shadow: inset 0 0 20px 0 $color-black;
 }
+
+.section--disclaimer {
+  background: #b4302b;
+}
+.disclaimer {
+  font-size: 48px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Sansita", sans-serif;
+  color: $color-gold;
+  letter-spacing: 1px;
+  padding: 20px;
+  margin-bottom: 32px;
+
+  @media (max-width: 800px) {
+    font-size: 32px;
+  }
+}
