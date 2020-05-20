@@ -9,9 +9,9 @@ const About = () => {
         className={classnames(styles["section"], styles["section--disclaimer"])}
       >
         <div className={styles["disclaimer"]}>
-          Vážení zákazníci, stále máme v této nelehké koronavirové době zavřeno.
-          Zatím to vypadá, že se Vám budeme moci věnovat od 8. června. Tak se
-          zatím mějte fajn, pevné zdraví a noste roušky!
+          Vážení zákazníci, od 25. 5. budeme mít konečně otevřeno. Neváhejte nás
+          kontaktovat ohledně předobjednání i nových termínů. Budeme se na Vás
+          těšit!
           <br /> <br />
           Voky, Vojta a Jirka
         </div>
