@@ -5,17 +5,13 @@ import classnames from "classnames";
 const About = () => {
   return (
     <>
-      {/* <section
+      <section
         className={classnames(styles["section"], styles["section--disclaimer"])}
       >
         <div className={styles["disclaimer"]}>
-          Vážení zákazníci, od 25. 5. budeme mít konečně otevřeno. Neváhejte nás
-          kontaktovat ohledně předobjednání i nových termínů. Budeme se na Vás
-          těšit!
-          <br /> <br />
-          Voky, Vojta a Jirka
+          <img src="/static/photos/poster.jpg" />
         </div>
-      </section> */}
+      </section>
       <section
         className={classnames(styles["section"], styles["section--about"])}
         id="about"
