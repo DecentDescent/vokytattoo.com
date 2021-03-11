@@ -10,7 +10,7 @@
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
     "classnames": "^2.2.6",
-    "next": "^9.1.4",
+    "next": "^9.3.2",
     "next-compose-plugins": "^2.1.1",
     "node-sass": "^4.13.0",
     "react": "^16.10.0",
